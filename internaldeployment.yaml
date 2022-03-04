@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-api
-        image: gcr.io/roi-dtc-march-u533/internal-image:v1.0.0
+        image: gcr.io/roi-dtc-march-u533/internal-image:v1.0.1
         env: 
         - name: PORT
           value: "8082"
